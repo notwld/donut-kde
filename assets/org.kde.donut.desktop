@@ -1,0 +1,20 @@
+[Desktop Entry]
+Type=Application
+Name=Donut
+GenericName=Radial drag action menu
+Comment=Copy, move, zip or extract files from a radial menu while dragging
+Exec=donut %U
+Icon=org.kde.donut
+Terminal=false
+Categories=Qt;KDE;Utility;
+Keywords=drag;drop;radial;menu;zip;extract;copy;move;
+StartupNotify=false
+Actions=settings;window;
+
+[Desktop Action settings]
+Name=Settings
+Exec=donut --settings
+
+[Desktop Action window]
+Name=Drop-target window
+Exec=donut --window

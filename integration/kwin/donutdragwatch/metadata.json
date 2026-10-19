@@ -1,0 +1,17 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "notwld"
+            }
+        ],
+        "Category": "Tools",
+        "Description": "Lets the Donut radial menu open while you drag files. Observes drag start, motion and end only; never reads dragged data.",
+        "EnabledByDefault": false,
+        "License": "GPL",
+        "Name": "Donut Drag Watch"
+    },
+    "org.kde.kwin.effect": {
+        "internal": false
+    }
+}

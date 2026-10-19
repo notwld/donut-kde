@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Service
+MimeType=all/all;
+Actions=donut
+X-KDE-Priority=TopLevel
+
+[Desktop Action donut]
+Name=Open in Donut…
+Icon=org.kde.donut
+Exec=donut --open %U
